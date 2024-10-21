@@ -82,6 +82,7 @@ while not game_over:
             display += letter
         else:
             display += "_"
+    print(display)
     if guess not in chosen_word:
         lives -= 1
     if lives == 0:
