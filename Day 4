@@ -60,5 +60,5 @@ if play == '2':
         print('Draw!')
     elif game[random_index] == rock:
         print('You lose!')
-else:
-    print('Invalid number. Try again!')
+    else:
+        print('Invalid number. Try again!')
